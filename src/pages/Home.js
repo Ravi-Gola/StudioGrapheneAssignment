@@ -2,38 +2,13 @@ import React from "react";
 import Banner from "../components/Banner";
 import Products from "../components/Products";
 import Contact from "../components/Contact";
+import bannerImg from '../components/banner.png'
 
 const Home = () => {
-  // const products = [
-  //   {
-  //     name: 'Product 1',
-  //     description: 'Description of Product 1',
-  //     price: 19.99,
-  //     image: 'product1.jpg',
-  //   },
-  //   {
-  //     name: 'Product 2',
-  //     description: 'Description of Product 1',
-  //     price: 19.99,
-  //     image: 'product1.jpg',
-  //   },
-  //   {
-  //     name: 'Product 3',
-  //     description: 'Description of Product 1',
-  //     price: 19.99,
-  //     image: 'product1.jpg',
-  //   },
-  //   {
-  //     name: 'Product 4',
-  //     description: 'Description of Product 1',
-  //     price: 19.99,
-  //     image: 'product1.jpg',
-  //   }
-  //   // Add more product objects here
-  // ];
   return (
     <div className="home">
       <div id="banner">
+      <img id="banner-image" alt="model" src={bannerImg}></img>
         <Banner />
       </div>
       <div className="seemore">
